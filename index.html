@@ -36,19 +36,20 @@
       </div>
       <div class="owner" id="reservation">
         <h2 role="heading">Meet the owner</h2>
-        <ul>
-          <li>Name: John Doe</li>
-          <li>Title: CEO</li>
-          <li>Email: johnjoe@jambox.ca</li>
-          <li>Phone: 613-000-0000</li>
+        <ul itemscope itemtype="https://schema.org/Person">
+          <li itemprop="name">Name: John Doe</li>
+          <li itemprop="jobTitle">Title: CEO</li>
+          <li itemprop="email">Email: johnjoe@jambox.ca</li>
+          <li itemprop="phone">Phone: 613-000-0000</li>
         </ul>
         <h2 id="studio">Address</h2>
-        <p>
+        <p itemprop="address" itemscope itemtype="https://schema.org/PostalAddress">
           Jambox Studios
           123 Guitar Road,
           Musicville, Danceistan
           B3T 0L0
         </p>
+
       </div>
       <div class="contact-section">
         <h2>Contact Us</h2>
